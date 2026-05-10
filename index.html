@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Job Portal</div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Find Your Dream Job</h1>
+        <p>Search thousands of jobs from top companies</p>
+
+        <div class="search-box">
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search job title...">
+
+            <select id="locationFilter">
+                <option value="">All Locations</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+
+            <select id="typeFilter">
+                <option value="">All Types</option>
+                <option value="Full-Time">Full-Time</option>
+                <option value="Internship">Internship</option>
+                <option value="Remote">Remote</option>
+            </select>
+
+        </div>
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs" class="jobs-section">
+
+        <h2>Available Jobs</h2>
+
+        <div class="job-container" id="jobContainer">
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Responsive Job Portal |
+            Developed using HTML, CSS & JavaScript
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
