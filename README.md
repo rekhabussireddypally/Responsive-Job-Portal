@@ -1,21 +1,27 @@
-# 💼 Responsive Job Portal Web Application
+# Responsive Job Portal Web Application
 
-A responsive and interactive Job Portal Web Application developed using HTML, CSS, and JavaScript. The application allows users to search and filter job listings dynamically through a clean and user-friendly interface.
+A responsive Job Portal Web Application developed using HTML, CSS, and JavaScript. The application allows users to search and filter job listings dynamically through a clean and interactive user interface.
 
 ---
 
-## 🚀 Features
+## Overview
 
-* Responsive design for desktop, tablet, and mobile devices
+This project focuses on responsive frontend development and dynamic user interaction. The application is designed to provide a simple and efficient job searching experience across multiple devices.
+
+---
+
+## Features
+
+* Responsive and mobile-friendly design
 * Dynamic job search functionality
 * Filter jobs by location and job type
-* Interactive job cards
+* Interactive job cards and apply functionality
 * Real-time filtering using JavaScript
-* Modern and clean UI design
+* Cross-device compatibility using Flexbox and media queries
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * HTML5
 * CSS3
@@ -23,9 +29,9 @@ A responsive and interactive Job Portal Web Application developed using HTML, CS
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-```text
+```text id="6yq9rt"
 responsive-job-portal/
 │
 ├── index.html
@@ -35,7 +41,7 @@ responsive-job-portal/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Download or clone the repository
 2. Open the project folder
@@ -43,7 +49,7 @@ responsive-job-portal/
 
 ---
 
-## 📌 Functionalities
+## Functionalities Implemented
 
 * Real-time job filtering
 * Responsive Flexbox layout
@@ -52,16 +58,13 @@ responsive-job-portal/
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 * Backend integration
 * Database connectivity
-* User authentication
+* User authentication system
 * Resume upload feature
 * Recruiter dashboard
 
 ---
 
-## 👩‍💻 Developer
-
-Developed by Rekha
