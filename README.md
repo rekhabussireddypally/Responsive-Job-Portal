@@ -1,32 +1,67 @@
-Responsive Job Portal Web Application
-Overview
+# 💼 Responsive Job Portal Web Application
 
-The Responsive Job Portal Web Application is a frontend-based web project developed using HTML, CSS, and JavaScript. The application provides an interactive platform where users can search and filter job listings dynamically through a clean and responsive user interface.
+A responsive and interactive Job Portal Web Application developed using HTML, CSS, and JavaScript. The application allows users to search and filter job listings dynamically through a clean and user-friendly interface.
 
-Features
-Responsive and mobile-friendly design
-Dynamic job search functionality
-Filter jobs by location and job type
-Interactive job cards and apply functionality
-Real-time filtering using JavaScript
-Cross-device compatibility using Flexbox and media queries
-Technologies Used
-HTML5
-CSS3
-JavaScript
-Project Structure
+---
+
+## 🚀 Features
+
+* Responsive design for desktop, tablet, and mobile devices
+* Dynamic job search functionality
+* Filter jobs by location and job type
+* Interactive job cards
+* Real-time filtering using JavaScript
+* Modern and clean UI design
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## 📂 Project Structure
+
+```text
 responsive-job-portal/
 │
 ├── index.html
 ├── style.css
 └── script.js
-How to Run
-Download or clone the repository
-Open the project folder
-Run the index.html file in any web browser
-Future Enhancements
-Backend integration
-Database connectivity
-User authentication system
-Resume upload feature
-Recruiter dashboard
+```
+
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository
+2. Open the project folder
+3. Run `index.html` in any web browser
+
+---
+
+## 📌 Functionalities
+
+* Real-time job filtering
+* Responsive Flexbox layout
+* Dynamic DOM manipulation
+* Search and filter operations using JavaScript
+
+---
+
+## 📈 Future Enhancements
+
+* Backend integration
+* Database connectivity
+* User authentication
+* Resume upload feature
+* Recruiter dashboard
+
+---
+
+## 👩‍💻 Developer
+
+Developed by Rekha
