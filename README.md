@@ -51,11 +51,6 @@ responsive-job-portal/
 ├── README.md
 ```
 
----
-
-
----
-
 ## How to Run the Project
 
 ### 1. Clone the Repository
