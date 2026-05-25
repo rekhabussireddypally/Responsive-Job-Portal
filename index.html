@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Responsive Job Portal</title>
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <div class="logo">Job Portal</div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <h1>Find Your Dream Job</h1>
+
+        <p>
+            Search thousands of jobs from top companies
+        </p>
+
+        <!-- Search Box -->
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search job title..."
+            />
+
+            <select id="locationFilter">
+                <option value="">All Locations</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Remote">Remote</option>
+            </select>
+
+            <select id="typeFilter">
+                <option value="">All Types</option>
+                <option value="Full-Time">Full-Time</option>
+                <option value="Internship">Internship</option>
+                <option value="Remote">Remote</option>
+            </select>
+
+        </div>
+
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs" class="jobs-section">
+
+        <h2>Available Jobs</h2>
+
+        <p id="jobCount"></p>
+
+        <div class="job-container" id="jobContainer"></div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+
+        <h2>About Us</h2>
+
+        <p>
+            Responsive Job Portal helps job seekers discover
+            opportunities from top companies through a modern,
+            responsive, and user-friendly platform.
+        </p>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+
+        <h2>Contact</h2>
+
+        <p>Email: support@jobportal.com</p>
+
+        <p>Phone: +91 9876543210</p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Responsive Job Portal</p>
+
+        <p>Built with HTML, CSS & JavaScript</p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
