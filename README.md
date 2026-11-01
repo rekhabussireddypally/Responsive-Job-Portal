@@ -4,12 +4,6 @@ A modern and responsive Job Portal Web Application built using HTML, CSS, and Ja
 
 ---
 
-## Live Demo
-
-[View Live Project] https://rekha-job-portal.netlify.app/ 
-
----
-
 ## Project Overview
 
 The Responsive Job Portal Web Application is a frontend-based web project designed to simulate a modern online job searching platform. It provides users with real-time job searching and filtering functionality while maintaining a responsive and visually appealing user interface across desktop, tablet, and mobile devices.
